@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Map</title>
+    <!-- Map API -->
+    <link
+      href="https://api.mapbox.com/mapbox-gl-js/v3.12.0/mapbox-gl.css"
+      rel="stylesheet"
+    />
+    <script src="https://api.mapbox.com/mapbox-gl-js/v3.12.0/mapbox-gl.js"></script>
+    <link
+      href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v4.1.1/mapbox-gl-directions.css"
+      rel="stylesheet"
+    />
+    <script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v4.1.1/mapbox-gl-directions.js"></script>
+
+    <!-- Countup js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/countup.js/2.6.2/countUp.umd.js"></script>
+    <!-- Styles -->
+    <link rel="stylesheet" href="map.css" />
+    <!-- Map Script -->
+    <script src="map-script.js" defer></script>
+  </head>
+
+  <body>
+    <!-- Logo Container -->
+    <div class="logo-container">
+      <img src="images/LOGOTYPE-DESQUARTIERS.svg" alt="Desquesrtiers Logo" />
+      <div class="location-container">
+        <span id="latitude">0</span>
+        <span id="longitude">0</span>
+      </div>
+    </div>
+    <!-- Map container -->
+    <div id="mapbox" class="map-container"></div>
+    <div id="map-overlay" class="map-overlay">
+      <img
+        src="images/material-symbols-light_ads-click-rounded.svg"
+        alt="click here icon"
+        class="click-icon"
+      />
+      <div class="map-overlay-message">Click to interact with the map</div>
+    </div>
+    <!-- Offer List -->
+    <div id="offer-list" class="offer-list"></div>
+  </body>
+</html>

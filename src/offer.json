@@ -1,0 +1,214 @@
+[
+  {
+    "id": 1,
+    "name": "Modern Apartment",
+    "type": "apartment",
+    "image": "https://images.unsplash.com/photo-1689043528099-2ba014dd7c64?q=80&w=1925&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "area": "50 sqm",
+    "lat": 48.853373,
+    "lng": 2.378,
+    "isFeatured": true
+  },
+  {
+    "id": 2,
+    "name": "Cozy Studio",
+    "type": "Studio",
+    "image": "https://plus.unsplash.com/premium_photo-1676823553207-758c7a66e9bb?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "area": "50 sqm",
+    "lat": 48.85339,
+    "lng": 2.39,
+    "isFeatured": false
+  },
+  {
+    "id": 3,
+    "name": "Charming Loft",
+    "type": "2 pieces",
+    "image":"https://images.unsplash.com/photo-1665249934445-1de680641f50?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "area": "50 sqm",
+    "lat": 48.8639,
+    "lng": 2.4,
+    "isFeatured": true
+  },
+  {
+    "id": 4,
+    "name": "Spacious Villa",
+    "type": "3 pieces",
+    "image":"https://plus.unsplash.com/premium_photo-1663126298656-33616be83c32?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "area": "50 sqm",
+     "lat": 48.869,
+    "lng": 2.36,
+    "isFeatured": true
+  },
+  {
+    "id": 5,
+    "name": "Luxury Penthouse",
+    "type": "Local",
+    "image":"https://images.unsplash.com/photo-1672082497059-1e6c0209eeeb?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "area": "50 sqm",
+    "lat": 48.85,
+    "lng": 2.4,
+    "isFeatured": false
+  },
+  {
+    "id": 6,
+    "name": "Rustic Cabin",
+    "type": "Loft",
+    "image": "https://images.unsplash.com/photo-1661820030641-35d02e9e9b37?q=80&w=1976&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "area": "50 sqm",
+    "lat": 48.8422,
+    "lng": 2.3522,
+    "isFeatured": true
+  },
+  {
+    "id": 7,
+    "name": "Elegant Studio",
+    "type": "Studio",
+    "image": "https://images.unsplash.com/photo-1661820030641-35d02e9e9b37?q=80&w=1976&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "area": "35 sqm",
+    "lat": 48.8590,
+    "lng": 2.3450,
+    "isFeatured": true
+  },
+  {
+    "id": 8,
+    "name": "Classic Parisian Apartment",
+    "type": "apartment",
+    "image": "https://images.unsplash.com/photo-1505691938895-1758d7feb511?q=80&w=1920&auto=format&fit=crop",
+    "area": "60 sqm",
+    "lat": 48.8540,
+    "lng": 2.3400,
+    "isFeatured": false
+  },
+  {
+    "id": 9,
+    "name": "Chic Loft",
+    "type": "Loft",
+    "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?q=80&w=1920&auto=format&fit=crop",
+    "area": "70 sqm",
+    "lat": 48.8570,
+    "lng": 2.3480,
+    "isFeatured": true
+  },
+  {
+    "id": 10,
+    "name": "Cozy Flat",
+    "type": "1 piece",
+    "image": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?q=80&w=1920&auto=format&fit=crop",
+    "area": "40 sqm",
+    "lat": 48.8520,
+    "lng": 2.3550,
+    "isFeatured": true
+  },
+  {
+    "id": 11,
+    "name": "Sunny Penthouse",
+    "type": "penthouse",
+    "image": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?q=80&w=1920&auto=format&fit=crop",
+    "area": "80 sqm",
+    "lat": 48.8600,
+    "lng": 2.3600,
+    "isFeatured": true
+  },
+  {
+    "id": 12,
+    "name": "Modern Duplex",
+    "type": "2 pieces",
+    "image": "https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?q=80&w=1920&auto=format&fit=crop",
+    "area": "55 sqm",
+    "lat": 48.8535,
+    "lng": 2.3395,
+    "isFeatured": false
+  },
+  {
+    "id": 13,
+    "name": "Bright Studio Near Bastille",
+    "type": "Studio",
+    "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?q=80&w=1920&auto=format&fit=crop",
+    "area": "30 sqm",
+    "lat": 48.853,
+    "lng": 2.372,
+    "isFeatured": false
+  },
+  {
+    "id": 14,
+    "name": "Spacious Apartment in Nation",
+    "type": "apartment",
+    "image": "https://images.unsplash.com/photo-1505691938895-1758d7feb511?q=80&w=1920&auto=format&fit=crop",
+    "area": "65 sqm",
+    "lat": 48.848,
+    "lng": 2.395,
+    "isFeatured": true
+  },
+  {
+    "id": 15,
+    "name": "Charming Flat by Vincennes",
+    "type": "1 piece",
+    "image": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?q=80&w=1920&auto=format&fit=crop",
+    "area": "45 sqm",
+    "lat": 48.839,
+    "lng": 2.417,
+    "isFeatured": true
+  },
+  {
+    "id": 16,
+    "name": "Modern Loft in Bercy",
+    "type": "Loft",
+    "image": "https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?q=80&w=1920&auto=format&fit=crop",
+    "area": "55 sqm",
+    "lat": 48.841,
+    "lng": 2.379,
+    "isFeatured": true
+  },
+  {
+    "id": 17,
+    "name": "Cozy Duplex Near Gare de Lyon",
+    "type": "2 pieces",
+    "image": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?q=80&w=1920&auto=format&fit=crop",
+    "area": "50 sqm",
+    "lat": 48.844,
+    "lng": 2.373,
+    "isFeatured": false
+  },
+  {
+    "id": 18,
+    "name": "Luxury Penthouse with View",
+    "type": "penthouse",
+    "image": "https://images.unsplash.com/photo-1600585154380-b6d9280a9b45?q=80&w=1920&auto=format&fit=crop",
+    "area": "90 sqm",
+    "lat": 48.837,
+    "lng": 2.389,
+    "isFeatured": true
+  },  
+
+  {
+    "id": 21,
+    "name": "Cozy Flat Near Gare de Lyon",
+    "type": "1 piece",
+    "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?q=80&w=1920&auto=format&fit=crop",
+    "area": "38 sqm",
+    "lat": 48.8505,
+    "lng": 2.3795,
+    "isFeatured": true
+  },
+ 
+  {
+    "id": 23,
+    "name": "Luxury Penthouse with Terrace",
+    "type": "Penthouse",
+    "image": "https://images.unsplash.com/photo-1501183638714-1f0f2f86b64f?q=80&w=1920&auto=format&fit=crop",
+    "area": "90 sqm",
+    "lat": 47.8537,
+    "lng": 2.3802,
+    "isFeatured": true
+  },
+  {
+    "id": 24,
+    "name": "Classic Parisian Apartment",
+    "type": "Apartment",
+    "image": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?q=80&w=1920&auto=format&fit=crop",
+    "area": "58 sqm",
+    "lat": 48.8950,
+    "lng": 2.4765,
+    "isFeatured": false
+  }
+]

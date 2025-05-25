@@ -1,0 +1,165 @@
+body {
+    background-color: black;
+    color: white;
+}
+.map-container {
+    height: 100vh;
+    width: 100%;
+}
+.logo-container {
+    width: 200px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 9;
+    color: white;
+}
+.location-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.map-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+}
+
+.map-overlay-message {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+}
+.click-icon {
+    filter: invert(0.5);
+    height: 50px;
+}
+.offer-list {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    z-index: 20;
+
+    padding: 1em;
+    border-radius: 6px;
+    max-height: 300px;
+    overflow-y: auto;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    width: 250px;
+}
+.offer-item {
+    margin-bottom: 12px;
+    cursor: pointer;
+}
+.custom-mapbox-marker {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    border-radius: 50%;
+
+    background-color: transparent;
+    cursor: pointer;
+    z-index: 1;
+    overflow: visible;
+    border-color: transparent;
+    /* transform: translate(-50%, -50%); */
+}
+
+.custom-mapbox-marker .inner-circle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 8px;
+    height: 8px;
+    background-color: white;
+    border-radius: 50%;
+
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    transition:
+        width 0.8s ease,
+        height 0.8s ease,
+        box-shadow 0.8s ease,
+        background-color 0.8s ease;
+    overflow: hidden;
+}
+/* Only show glow if marker is featured */
+.custom-mapbox-marker.is-featured .inner-circle {
+    box-shadow: 0 0 30px 15px rgba(255, 255, 255, 0.5);
+}
+.custom-mapbox-marker.is-featured {
+    border: 1px solid white;
+}
+
+/* ::after pseudo-element to show the background image */
+.custom-mapbox-marker .inner-circle::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: var(--marker-bg-image);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    border-radius: 50%;
+    z-index: -1;
+}
+
+/* Hover in — grow + show image immediately */
+.custom-mapbox-marker:hover .inner-circle {
+    width: 150px;
+    height: 150px;
+    box-shadow: none;
+    background-color: transparent;
+}
+
+.custom-mapbox-marker:hover .inner-circle::after {
+    opacity: 1;
+    transition-delay: 0s; /* no delay to show image */
+}
+
+/* Hover out — hide image after 0.5s (shrink done) */
+.custom-mapbox-marker:not(:hover) .inner-circle::after {
+    opacity: 0;
+    transition-delay: 0.5s; /* delay hiding */
+}
+.marker-subtitle {
+    color: white;
+    width: 200px;
+    font-size: 12px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 2px 6px;
+    border-radius: 4px;
+    white-space: nowrap;
+    position: relative;
+    left: -90px;
+    top: 90px;
+
+    opacity: 0;
+    visibility: hidden;
+    transition:
+        opacity 0.3s ease,
+        visibility 0s linear;
+}
+
+.custom-mapbox-marker:hover .marker-subtitle {
+    opacity: 1;
+    visibility: visible;
+    transition:
+        opacity 0.3s ease,
+        visibility 0s;
+    transition-delay: 0.3s;
+}
